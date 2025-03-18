@@ -33,6 +33,22 @@
 // }
 
 
+//1. feladat:
+for (let index = 0; index < 20; index++) {
+    console.log(`${index} - ${index * index} - ${Math.sqrt(index)}`);
+    
+}
 
+//2.feladat:
+let emoji= "😶‍🌫️"
+for (let i = 1; i < 11; i++) {
+    console.log(emoji.repeat(i) );
+}
 
+//3.feladat:
 
+for (let i = 99; i > 1; i--) {
+   if (i % 2 == 0 && i % 3 == 0) {
+    console.log(i);
+   }
+}
